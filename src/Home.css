@@ -1,0 +1,257 @@
+.home {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+.home__row-tv {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgb(245, 236, 168);
+}
+.home__row-fridge {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgb(168, 212, 245);
+}
+.home__row-air {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgb(212, 248, 169);
+}
+.home__row-wash {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgb(248, 169, 169);
+}
+.home__row-grinder {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color:rgb(248, 169, 240);
+}
+.home__row-fan {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color:rgb(169, 248, 231);
+}
+.home__row-iron {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color:rgb(255, 148, 187);
+}
+.home__row-vaccum {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color:rgb(105, 103, 104);
+}
+.home__row-water{
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color:rgb(250, 252, 103);
+}
+.home__row-heater{
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color:rgb(103, 252, 244);
+}
+.home__row-micro{
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color:rgb(54, 252, 67);
+}
+.home__image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -150px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.tv{
+  text-align: Left;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 10%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color: rgb(245, 236, 168);
+  z-index: 1;
+}
+.fridge{
+  text-align: Left;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 10%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color:rgb(168, 212, 245);
+  z-index: 1;
+}
+.air{
+  text-align: Left;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 10%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color:rgb(212, 248, 169);
+  z-index: 1;
+}
+.wash{
+  text-align: Left;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 10%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color:rgb(248, 169, 169);
+  z-index: 1;
+}
+.grinder{
+  text-align: Left;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 10%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color:rgb(248, 169, 240);
+  z-index: 1;
+}
+.fan{
+  text-align: Left;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 10%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color:rgb(169, 248, 231);
+  z-index: 1;
+}
+.iron{
+  text-align: Left;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 10%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color:rgb(255, 148, 187);
+  z-index: 1;
+}
+.vaccum{
+  text-align: Left;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 10%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color:rgb(105, 103, 104);
+  z-index: 1;
+}
+.water{
+  text-align: Left;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 10%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color:rgb(250, 252, 103);
+  z-index: 1;
+}
+
+.heater{
+  text-align: Left;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 10%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color:rgb(103, 252, 244);
+  z-index: 1;
+}
+.micro{
+  text-align: Left;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 10%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color:rgb(54, 252, 67);
+  z-index: 1;
+}
